@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(26, 255, 0);
+    background-image: repeating-radial-gradient(#ff0000, black 10%, black 15%);
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: #ff0000;
+    height: auto;
+    width: 25vw;
+    box-shadow: 4px 5px 6px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 20px;
+}
+
+.addTask {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    padding: 7px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+button:hover {
+    border: 1px solid rgb(43, 255, 0);
+    box-shadow: 2px 2px 2px;
+    background-color: black;
+    color: #ff0000;
+}
+
+input:hover {
+    box-shadow: 2px 2px 2px;
+    color: #ff0000;
+    background-color: black;
+    border: 1px solid rgb(43, 255, 0);
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0px 10px;
+    margin-bottom: 7px;
+    align-items: center;
+    background-color: white;
+    color: #ff0000;
+}
